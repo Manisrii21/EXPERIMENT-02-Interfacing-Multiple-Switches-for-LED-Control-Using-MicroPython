@@ -142,18 +142,19 @@ while True:
  
 
 ## OUTPUT
-FIGURE-01:
+### FIGURE-01:
 ![Screenshot 2025-03-03 110722](https://github.com/user-attachments/assets/e269234b-301a-419d-83f3-379b5c9f407c)
 
 
-FIGURE-02: CIRCUIT CONNECTION
+### FIGURE-02: 
+
 ![Screenshot 2025-03-03 110801](https://github.com/user-attachments/assets/a866d8be-4084-4a3a-a746-5f7bd5b93a35)
 
+### FIGURE-03: 
 
-FIGURE-03: CODE EXECUTION OUTPUT
 ![Screenshot 2025-03-03 110831](https://github.com/user-attachments/assets/a39c072d-c7e8-4281-9d75-fb9999ecd25c)
 
-FIGURE-04: LED STATUS BASED ON SWITCH INPUTS
+### FIGURE-04: 
 ![Screenshot 2025-03-03 110900](https://github.com/user-attachments/assets/f4204da2-6e3a-473c-9c33-e643fba11555)
 
 
