@@ -2,13 +2,13 @@
 
 
  
-## NAME:
+## NAME: M MANI SRI LATHA
 
-## DEPARTMENT:
+## DEPARTMENT: BE.CSE(IOT)
 
-## ROLL NO:
+## ROLL NO: 212223110025
 
-## DATE OF EXPERIMENT:
+## DATE OF EXPERIMENT: 03-03-2025
 
 ## AIM
 
@@ -65,20 +65,98 @@ Connect the other terminals of the switches to GND.
 
 ## PROGRAM (MicroPython)
 ''''
+from machine import Pin
+
+from time import sleep
 
 
+
+# Define switches as input pins
+
+switch1 = Pin(2, Pin.IN)
+
+switch2 = Pin(3, Pin.IN)
+
+
+
+# Define LEDs as output pins
+
+led = Pin(15, Pin.OUT)
+
+led2 = Pin(16, Pin.OUT)
+
+
+
+while True:
+
+    # Read switch states
+
+    sw1_state = switch1.value()
+
+    sw2_state = switch2.value()
+
+
+
+    # Print switch states
+
+    print("Switch 1 State:", sw1_state)
+
+    print("Switch 2 State:", sw2_state)
+
+
+
+    # Turn off LED initially
+
+    led.value(0)
+
+
+
+    if sw1_state == 1 and sw2_state == 1:
+
+        led.value(1)
+
+        led2.value(1)
+
+    elif sw1_state == 1:
+
+        led.value(1)
+
+        sleep(0.5)
+
+        led.value(0)
+
+        led2.value(0)
+
+    elif sw2_state == 1:
+
+        led.value(0)
+
+        led2.value(1)
+
+        sleep(0.5)
+
+        led2.value(0)
+
+        sleep(0.5)
 
  
 
 ## OUTPUT
-
+FIGURE-01:
+![Screenshot 2025-03-03 110722](https://github.com/user-attachments/assets/e269234b-301a-419d-83f3-379b5c9f407c)
 
 
 FIGURE-02: CIRCUIT CONNECTION
+![Screenshot 2025-03-03 110801](https://github.com/user-attachments/assets/a866d8be-4084-4a3a-a746-5f7bd5b93a35)
+
 
 FIGURE-03: CODE EXECUTION OUTPUT
+![Screenshot 2025-03-03 110831](https://github.com/user-attachments/assets/a39c072d-c7e8-4281-9d75-fb9999ecd25c)
 
 FIGURE-04: LED STATUS BASED ON SWITCH INPUTS
+![Screenshot 2025-03-03 110900](https://github.com/user-attachments/assets/f4204da2-6e3a-473c-9c33-e643fba11555)
+
+
 ## TIMING DIGAGRAM 
 
 
