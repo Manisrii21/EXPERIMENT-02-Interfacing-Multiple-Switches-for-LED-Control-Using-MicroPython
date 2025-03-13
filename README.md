@@ -159,11 +159,7 @@ while True:
 ![Screenshot 2025-03-03 110801](https://github.com/user-attachments/assets/a866d8be-4084-4a3a-a746-5f7bd5b93a35)
 
 ## TIMING DIGAGRAM 
-
-
-UPLOAD YOUR TIMING DIGARAM HERE 
-
-
+![Screenshot 2025-03-13 105621](https://github.com/user-attachments/assets/c4934f8b-b64f-4a59-8377-544662b25969)
 
 ## RESULTS
 
